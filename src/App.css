@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: aliceblue
+}
+
+/* CONTAINER */
+.container{
+    width: 60%;
+    height: 700px;
+    margin: 80px auto;
+    background-color: rgb(82, 123, 158);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .75);
+}
+/* CONTAINER */
+
+/* HEADER */
+.header{
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+}
+
+.border-bottom{
+    height: 3px;
+    width: 10%;
+    margin: 0 auto;
+    background-color: rgb(46, 158, 202);
+    border-radius: 20px;
+}
+/* HEADER */
+
+/* REVIEWS */
+.reviews{
+    text-align: center;
+    padding-top: 40px;
+}
+
+.thumb img{
+    border-radius: 50%;
+    border: 4px solid rgb(46, 158, 202);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .50);
+}
+
+.title{
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.title .author{
+    color: white;
+    font-size: 2em;
+}
+
+.title .job{
+    color: rgb(63, 191, 241);
+    font-size: 1.3em;
+}
+
+.desc{
+    width: 50%;
+    margin: 0 auto;
+    height: 130px;
+}
+
+.desc p{
+    color: white;
+}
+/* REVIEWS */
+
+/* BUTTON */
+.next, .previous{
+    font-size: 1.8em;
+    cursor: pointer;
+    color:rgb(63, 191, 241);
+    margin: 0 5px;
+}
+
+.next:hover, .previous:hover{
+    color:rgb(46, 158, 202);
+}
+
+.random-button{
+    display: block;
+    height: 30px;
+    width: 100px;
+    background-color:aliceblue;
+    color: rgb(63, 191, 241);
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+.random-button:hover{
+    background-color: white;
+}
+
+.rotate{
+    position: absolute;
+    transform: rotateY(180deg);
+}
+/* BUTTON */
